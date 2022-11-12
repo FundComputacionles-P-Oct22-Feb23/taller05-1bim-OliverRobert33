@@ -1,0 +1,16 @@
+1. Inicio
+2. Se pide que ingrese su edad.
+3. Se pide que seleccione que servicio quiere cancelar el agua o el telefono.
+4. Si el servicio a cancelar es el agua.
+5. Se le pide que ingrese el costo del agua por litro.
+6. Se pide que ingrese los litros consumidos en el mes.
+7. Si el servicio a pagar es el telefono.
+8. Se le pide que ingrese el costos del telefono por minutos.
+9. Se pide que ingrese los minutos consumidos en el mes.
+10. Para saber el costo del agua mensual se debe realizar la operacion de multiplicacion entre costos del agua/litro y litros consumidos en el mes.
+11. Para saber el costo mensual del telefono se debe realizar otra operacion de multiplicacion entre costos del telefono/minuto y minutos consumidos en el mes.
+12. Para saber el valor total a cancelar de los dos servicios se debe realizar la operacion de suma entre los dos resultados de las multiplicaciones.
+13. Si la edad ingresada al principio es menor a 20 años, se le hara el descuento del 20% al valor total a cancelar.
+14. Para sacar el 20% se puede realizar dos operaciones una que es (el valor total a cancelar * 20 / 100) y la otra es (el valor total a cancelar * 0,20).
+15. Se muestra el resultado final en pantalla.
+16. Fin

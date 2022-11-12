@@ -1,0 +1,22 @@
+1. Inicio
+
+2. articulos, x(20)[{A-Z},{a-z},{BS}]
+3. cantidad_Unidades, i[0-n]
+4. precio_Unitario, d[0-n] <-- 10
+5. descuento, d[0-n] <-- 15%
+6. valor_Pagar, d[0-n]
+
+7. << "Ingrese el Articulo que desea" 
+8. >> articulos
+9. << "Ingrese cuantas unidades desea"
+10. >> cantidad_Unidades
+
+11. valor_Pagar <-- cantidad_Unidades * precio_Unitario
+
+12. Si cantidad_Unidades > 50 entonces
+13. valor_Pagar <-- valor_Pagar  * 0.15
+14. FinSi
+
+15. << "El costos del articulo/s es:" + valor_Pagar
+
+16. Fin 

@@ -1,0 +1,41 @@
+1. Inicio
+
+2. descuento1, d[0-n] <-- 10%
+3. descuento2, d[0-n] <-- 15%
+4. descuento3, d[0-n] <-- 20%
+5. dias, i[0-n]
+6. precio_habitacion, d[0-n]
+7. subtotal, d[0-n]
+8. valor_descuento, d[0-n]
+9. total, d[0-n]
+
+10. << "Ingrese cuantos dias se va a hospedar"
+11. >> dias
+12. << "Ingrese el costo de la habitacion a hospedar"
+13. >> precio_habitacion
+
+14. subtotal <-- dias * precio_habitacion
+
+15. Si dias > 5 and < 10 entonces
+16. 	valor_descuento <-- subtotal * 0.10
+17. De lo contrario
+
+18. Si dias > 10 and <15 entonces
+19. 	valor_descuento <-- subtotal * 0.15
+20. De lo contrario 
+
+21. Si dias > 15 entonces
+22. 	valor_descuento <-- subtotal * 0.20
+23. FinSi
+24. FinSi
+25. FinSi
+
+26. total <-- subtotal - valor_descuento
+
+27. << "El subtotal es:" + subtotal
+28. << "El descuento es" + valor_descuento
+29. << " El total por pagar es:" + total 
+
+30. Fin
+
+
